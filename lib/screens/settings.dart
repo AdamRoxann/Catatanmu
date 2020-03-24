@@ -113,20 +113,20 @@ class _SettingsPageState extends State<SettingsPage> {
                       style: TextStyle(fontFamily: 'ZillaSlab', fontSize: 24),
                     ),
                   )),
-                  // Container(
-                  //   alignment: Alignment.center,
-                  //   child: OutlineButton.icon(
-                  //     icon: Icon(OMIcons.link),
-                  //     label: Text('GITHUB',
-                  //         style: TextStyle(
-                  //             fontWeight: FontWeight.w500,
-                  //             letterSpacing: 1,
-                  //             color: Colors.grey.shade500)),
-                  //     shape: RoundedRectangleBorder(
-                  //         borderRadius: BorderRadius.circular(16)),
-                  //     onPressed: openGitHub,
-                  //   ),
-                  // ),
+                  Container(
+                    alignment: Alignment.center,
+                    child: OutlineButton.icon(
+                      icon: Icon(OMIcons.link),
+                      label: Text('GITHUB',
+                          style: TextStyle(
+                              fontWeight: FontWeight.w500,
+                              letterSpacing: 1,
+                              color: Colors.grey.shade500)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16)),
+                      onPressed: openGitHub,
+                    ),
+                  ),
                   Container(
                     height: 30,
                   ),
@@ -211,6 +211,6 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   void openGitHub() {
-    launch('https://www.github.com/roshanrahman');
+    launch('https://www.github.com/AdamRoxann');
   }
 }
